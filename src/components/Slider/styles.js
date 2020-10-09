@@ -32,7 +32,7 @@ export const SliderImg = styled.img`
   height: 450px;
   @media screen and (max-width: 768px) {
     width: 450px;
-    height: 271px;
+    height: 209px;
   }
 
   @media screen and (min-width: 768px) and (max-device-width: 1024px) {
@@ -55,7 +55,7 @@ export const SliderText = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    top: 65%;
+    top: 55%;
     left: 50%;
     overflow: hidden;
     max-width: 360px;
@@ -100,8 +100,14 @@ export const SliderDesc = styled.div`
   @media screen and (max-width: 768px) {
     font-size: 20px;
     margin-left: 10px;
-    color: #283c4f;
+    color: #2e4153;
     margin-top: 30px;
+    font-weight: bold;
+    width: 100%;
+  }
+  @media screen and (min-width: 768px) and (max-device-width: 1024px) {
+    color: #fff;
+    margin-top: 20px;
   }
 `;
 
@@ -153,7 +159,7 @@ export const Dots = styled.ol`
   display: flex;
   justify-content: center;
   @media screen and (max-width: 768px) {
-    top: 70%;
+    top: 60%;
   }
 
   @media screen and (min-width: 768px) and (max-device-width: 1024px) {
